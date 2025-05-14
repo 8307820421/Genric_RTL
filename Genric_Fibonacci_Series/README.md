@@ -47,11 +47,13 @@ A more synthesis-friendly approach is to reverse the loop order, from LSB to MSB
 
 
 genvar i;
+
 generate
     for (i = 0; i < 32; i = i + 1) begin : gen_loop
-        // Generate logic here
+
     end
 endgenerate
+  
 In this case, the synthesizer can process the iterations in a way that makes sense for the hardware structure, such as creating a parallel set of logic gates or registers.
 
 # Conclusion:
