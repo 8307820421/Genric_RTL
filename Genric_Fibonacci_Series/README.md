@@ -31,6 +31,7 @@
                
 # Example Problem:
 Here’s a non-synthesizable example of a for loop used with generate from MSB to LSB:
+
 genvar i;
 generate
     for (i = 31; i >= 0; i = i - 1) begin : gen_loop
