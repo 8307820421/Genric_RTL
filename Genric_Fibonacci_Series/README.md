@@ -34,9 +34,10 @@ Here’s a non-synthesizable example of a for loop used with generate from MSB t
 genvar i;
 generate
     for (i = 31; i >= 0; i = i - 1) begin : gen_loop
-        // Generate logic here, perhaps an adder or shift register
+   
     end
 endgenerate
+//   // Generate logic here, perhaps an adder or shift register
 
 In this example, the loop from 31 downto 0 is problematic for synthesis because it doesn’t follow the conventional approach that the synthesizer expects (from LSB to MSB in a structured manner). The synthesizer has difficulty knowing how to unroll the logic properly, especially if the logic inside the loop is dependent on previous iterations in the reversed order.
 
