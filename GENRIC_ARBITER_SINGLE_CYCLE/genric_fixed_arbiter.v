@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 
 /*
-  Module Name : simple_genric_arbiter_fixed
+  Module Name : genric_fixed_arbiter
   Description : This arbiter will work for every parameters.
   Operators : 1) OR (bitwise) 2) bitwise AND .
 */
