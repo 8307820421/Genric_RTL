@@ -5,7 +5,7 @@
   Description : This arbiter will work for every parameters.
   Operators : 1) OR (bitwise) 2) bitwise AND .
 
-  Note : To see how this arbiter is working you can look at the scfreenshot where 32'd3 testcase developed.
+  Note : To see how this arbiter is working you can look at the screenshot where 32'd3 testcase developed.
 */
 
 module genric_fixed_arbiter  #(
