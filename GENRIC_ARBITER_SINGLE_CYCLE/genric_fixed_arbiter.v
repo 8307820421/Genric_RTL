@@ -41,5 +41,5 @@ priority_q = {1'b1,1'b0}; // as 2bit
 
 
 inverse =  2'b01; (~priority_q).
-grant_o = 2'b01 & 01 --> 2'01 (priority of zero aactive).
+grant_o = 2'b01 & 01 --> 2'01 (priority of zeroth index  active).
 */
